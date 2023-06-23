@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EventPlanner" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">@color/white</item>
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorOnBackground">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/darkGrey</item>
+        <item name="android:textSize">24sp</item>
+        <item name="fontFamily">@font/varela_round</item>
+        <item name="android:fontFamily">@font/varela_round</item>
+
+        <item name="android:listDivider">@color/lightGrey</item>
+
+        <item name="toolbarStyle">@style/Toolbar.bottomNav</item>
+
+        <item name="colorAccent">@color/blue</item>
+        <item name="boxStrokeErrorColor">@color/red</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+
+    <style name="Theme.EventPlanner" parent="Base.Theme.EventPlanner" />
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+        <item name="fontFamily">@font/varela_round</item>
+        <item name="android:fontFamily">@font/varela_round</item>
+        <item name="colorPrimary">@color/blue</item>
+    </style>
+
+    <style name="Toolbar.bottomNav" parent="Widget.AppCompat.Toolbar" >
+        <item name="android:background">@color/grey_background</item>
+    </style>
+
+    <style name="Toolbar.MainActivity" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">30sp</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="fontFamily">@font/varela_round</item>
+        <item name="android:fontFamily">@font/varela_round</item>
+
+    </style>
+
+</resources>

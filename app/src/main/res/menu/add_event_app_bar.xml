@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_button"
+        android:icon="@drawable/add_button_disabled"
+        android:title="@string/add"
+        android:contentDescription="@string/add"
+        app:showAsAction="always"
+        android:enabled="false"
+        android:clickable="true"
+        app:rippleColor="@color/ripple_color_button"/>
+</menu>
